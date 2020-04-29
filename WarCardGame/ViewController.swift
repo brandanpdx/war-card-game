@@ -51,7 +51,9 @@ class ViewController: UIViewController {
             
         }
         
-        
+        if (leftScore == 5 || rightScore == 5) {
+            print("works")
+        }
     }
     
 }
